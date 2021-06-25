@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* comune */
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.container {
+	width: 60%;
+	margin: auto;
+}
+
+/* Header */
+header {
+	background-color: #e579e6;
+	height: 80px;
+	margin-bottom: 20px;
+}
+/* Corpo */
+.box1{
+    height: 250px;
+    background-color:#e1d67a ;
+    margin-bottom: 20px;
+}
+.box2{
+    background-color: #0187fc;
+    height: 350px;
+}
+.box2 > div{
+    background-color: #abcfe7;
+}
+.barra-centrale{
+    height: 40px;
+}
+
+.col-sinistra,.col-centrale,.col-destra{
+    float: left;
+    height: calc(100% - 80px);
+}
+
+.col-sinistra, .col-destra{
+	width: 20%;
+    margin: 20px 0;
+}
+
+.col-centrale{
+    width: calc(60% - 40px);
+	margin: 20px 20px;
+}
+/* footer */
+footer{
+    height: 30px;
+    background-color: #8801fd;
+    margin-top: 20px;
+}
