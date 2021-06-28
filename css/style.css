@@ -17,29 +17,29 @@
 /* Header */
 header {
 	background-color: #e579e6;
-	height: 80px;
-	margin-bottom: 20px;
+	height: 150px;
+	margin: 20px 0;
 }
 /* Corpo */
 .box1{
-    height: 250px;
+    height: 600px;
     background-color:#e1d67a ;
     margin-bottom: 20px;
 }
 .box2{
     background-color: #0187fc;
-    height: 350px;
+    height: 600px;
 }
 .box2 > div{
     background-color: #abcfe7;
 }
 .barra-centrale{
-    height: 40px;
+    height: 80px;
 }
 
 .col-sinistra,.col-centrale,.col-destra{
     float: left;
-    height: calc(100% - 80px);
+    height: calc(100% - 120px);
 }
 
 .col-sinistra, .col-destra{
@@ -53,7 +53,7 @@ header {
 }
 /* footer */
 footer{
-    height: 30px;
+    height: 60px;
     background-color: #8801fd;
-    margin-top: 20px;
+    margin: 20px 0;
 }
